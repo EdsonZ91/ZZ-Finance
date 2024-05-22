@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap");
+
+
 *{
   padding: 0;
   margin: 0;
@@ -7,9 +10,7 @@
   width: 100vw;
   height: 100vh;
   background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
  
 }
 .Box{
@@ -17,5 +18,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  font-family: "Playfair Display", serif;
+  flex-direction: row;
+  width: 100vw;
+  height: 50vh;
+ 
 }
