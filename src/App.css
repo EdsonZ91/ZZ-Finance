@@ -22,7 +22,7 @@
   justify-content: space-between;
   flex-direction: row;
   width: 100vw;
-  height: calc(1vh + 50%);
+  height: 35%;
   position: absolute;
   padding-left: 100px;
   padding-right: 100px;
@@ -32,20 +32,19 @@
 }
 
 .cardsBank{
- 
- width: 100px;
- height: 300px;
+ background-color: blueviolet;
+ width: 60%;
+ height: 9vw;
  position: absolute;
  z-index: 1;
  padding: 20px;
- border-radius: 20px;
  display: flex;
  justify-content: center;
 align-items: center;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-
+top: 270px;
 }
 
 input{
@@ -91,11 +90,40 @@ button:active{
   opacity: 1;
 }
 
-.cardsBank{
-  background-color: blueviolet;
+.carDbank{
+  width: 400px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #F4F9FE;
+  padding: 20px;
+  display:flex;
+  align-items: center;
+  gap: 10px;
+
+  
+}
+
+
+.cardIcon{
   height: 100px;
-  width: 100%;
-  position: absolute;
-  top: 400px
+  width: 100px;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  
+}
+
+.entradaTx{
+  
+  
+}
+
+.Ent{
+  font-size: x-large;
+  color: #969696;
+}
+
+.valr{
+  font-size: x-large;
+  color:#000000;
 }
 
