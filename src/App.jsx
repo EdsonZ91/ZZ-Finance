@@ -1,4 +1,8 @@
 import"./App.css"
+import CarDbank from "./components/Cards"
+
+
+
 function App() {
     return(
         <div className="majorBox">
@@ -8,17 +12,12 @@ function App() {
                  <button className="firstBu">Nova transação</button>
             </div>
             <div className="cardsBank">
-                <div className="carDbank">
-                    <div className="cardIcon">
+               <CarDbank />
+               <CarDbank />
+               <CarDbank />
+               
 
-                    </div>
-                    <div className="entradaTx">
-                        <p className="Ent">Entradas</p>
-                        <p className="valr">R$ 300,00</p>
-
-                    </div>
-
-                </div>
+               
 
             </div>
         </div>
