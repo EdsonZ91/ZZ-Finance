@@ -12,6 +12,7 @@ function App() {
                  <button className="firstBu">Nova transação</button>
             </div>
             <div className="cardsBank">
+
                <CarDbank />
                <CarDbank />
                <CarDbank />
