@@ -1,5 +1,5 @@
 import"./App.css"
-import CarDbank from "./components/Cards"
+import  Crd from "./componentes/Arquivos"
 
 
 
@@ -13,11 +13,7 @@ function App() {
             </div>
             <div className="cardsBank">
 
-               <CarDbank />
-               <CarDbank />
-               <CarDbank />
-               
-
+               <Crd  />
                
 
             </div>
