@@ -1,11 +1,22 @@
-function Caixa({texo,valor}){
+function Caixa({Text,valr}){
 
     return(
 
-        <div>
-        <p>{"texto"}</p>
-        <h1>{valor}</h1>
+        <div className="Crd">
+            
+            <div className="cardIcon">
+
+            </div>
+
+                <p> {Text} </p>
+
+                <h1>R${valr}</h1>
+
+           
+
         </div>
+
+       
 
     )
 }

@@ -1,6 +1,7 @@
 import"./App.css"
 import  Crd from "./componentes/Arquivos"
-
+import Pencil from "./componentes/texto"
+import Bagb from "./componentes/Bag"
 
 
 function App() {
@@ -11,12 +12,28 @@ function App() {
 
                  <button className="firstBu">Nova transação</button>
             </div>
-            <div className="cardsBank">
+            <div  className="cardsBank">
 
-               <Crd  />
-               
+               <Crd  Text="Entrada" valr={3.000}/>
 
+               <Crd Text="Saida" valr={400} />
+
+               <Crd Text="Total" valr={2.600} /> 
+
+             
+             
+            
+                
+
+           
+
+            
             </div>
+            
+            
+
+
+           
         </div>
     )
 }

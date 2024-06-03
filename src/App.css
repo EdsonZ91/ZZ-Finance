@@ -34,7 +34,7 @@
 .cardsBank{
  background-color: blueviolet;
  width: 60%;
- height: 9vw;
+ height: 10vw;
  position: absolute;
  z-index: 1;
  padding: 20px;
@@ -52,7 +52,6 @@ input{
   line-height: 25px;
   padding: 5px;
   width: 100px;
-;
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -90,8 +89,8 @@ button:active{
   opacity: 1;
 }
 
-.carDbank{
-  width: 400px;
+.Crd{
+  width: 300px;
   height: 150px;
   border-radius: 20px;
   background-color: #F4F9FE;
@@ -99,7 +98,7 @@ button:active{
   display:flex;
   align-items: center;
   gap: 10px;
-
+  justify-content:space-between;
   
 }
 
@@ -112,18 +111,20 @@ button:active{
   
 }
 
-.entradaTx{
+
   
   
-}
 
-.Ent{
-  font-size: x-large;
-  color: #969696;
-}
 
-.valr{
+h1{
   font-size: x-large;
+  
   color:#000000;
+}
+
+p{
+  font-size: x-large;
+  
+  color: #969696;
 }
 
