@@ -2,7 +2,9 @@ function Bagb ({text,value,opp}){
 
     return(
         <div className="xBag">
-            <div className="bagIcon"/>
+            <div className="bagIcon">
+                
+            </div>
 
                 
 

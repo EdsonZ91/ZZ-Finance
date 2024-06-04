@@ -18,20 +18,26 @@ function App() {
                valr={3000}/>
 
                <Crd Text="Saida" 
-               valr={400} />
+               valr={-400} />
 
                <Crd Text="Total" 
                valr={2600} /> 
+
+               
 
             </div>
              
                 <div className="CrdDown">
 
-                    <Bagb />
+                    <Bagb text={"Spotify Premium  "} opp={"sexta-feira, 04:50 pm "} value={26.50}/>
 
-                    <Bagb />
+                    <Bagb text={"Pix Transfer"} opp={"sexta-feira, 09:50 am "} value={26.50}/>
                     
-                    <Bagb />
+                    <Bagb text={"Pão Frances"} opp={"Quinta-Feira, 05:00 pm "} value={12.50}/> 
+
+                   
+
+                    
 
 
 
