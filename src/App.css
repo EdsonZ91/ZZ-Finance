@@ -40,11 +40,11 @@
  padding: 20px;
  display: flex;
  justify-content: center;
-align-items: center;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-top: 270px;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 270px;
 }
 
 input{
@@ -94,12 +94,12 @@ button:active{
   height: 150px;
   border-radius: 20px;
   background-color: #F4F9FE;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   display:flex;
   align-items: center;
   gap: 10px;
-  justify-content:space-between;
-  
+  justify-content: center;
 }
 
 
@@ -108,23 +108,58 @@ button:active{
   width: 100px;
   border-radius: 50px;
   background-color: #FFFFFF;
-  
+  margin-bottom: 5px;
 }
 
 
-  
-  
 
-
-h1{
-  font-size: x-large;
-  
+h3{
+  font-size: 20px;
   color:#000000;
+  margin-bottom: 5px;
 }
 
 p{
-  font-size: x-large;
-  
+  font-size: medium;
   color: #969696;
 }
 
+.CrdDown{
+  background-color: red;
+  position: absolute; 
+  bottom: 10px; 
+  right: 10px;
+  width: 1260vw;
+  height: 30vh;
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  
+}
+
+.BagIcon{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  margin-bottom: 5px;
+
+}
+
+.xBag{
+  width: 500px;
+height: 200px;
+border-radius: 20px;
+background-color: #F4F9FE;
+padding-left: 20px;
+padding-right: 20px;
+display:flex;
+align-items: center;
+gap: 10px;
+
+
+}

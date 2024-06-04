@@ -14,26 +14,30 @@ function App() {
             </div>
             <div  className="cardsBank">
 
-               <Crd  Text="Entrada" valr={3.000}/>
+               <Crd  Text="Entrada" 
+               valr={3000}/>
 
-               <Crd Text="Saida" valr={400} />
+               <Crd Text="Saida" 
+               valr={400} />
 
-               <Crd Text="Total" valr={2.600} /> 
+               <Crd Text="Total" 
+               valr={2600} /> 
 
-             
-             
-            
-                
-
-           
-
-            
             </div>
-            
-            
+             
+                <div className="CrdDown">
+
+                    <Bagb />
+
+                    <Bagb />
+                    
+                    <Bagb />
 
 
-           
+
+
+                </div>
+    
         </div>
     )
 }

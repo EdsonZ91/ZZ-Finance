@@ -4,13 +4,11 @@ function Caixa({Text,valr}){
 
         <div className="Crd">
             
-            <div className="cardIcon">
-
-            </div>
+            <div className="cardIcon"></div>
 
                 <p> {Text} </p>
 
-                <h1>R${valr}</h1>
+                <h3>R${valr}</h3>
 
            
 
