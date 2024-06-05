@@ -1,4 +1,4 @@
-function Caixa({Text,valr}){
+function Caixa({Text,valr,figura}){
     
  
 
@@ -6,13 +6,15 @@ function Caixa({Text,valr}){
 
     return(
 
-        <div className="Crd">
+        <div className={figura == "Crd" ? "CrdBaixo" :"Crd" }>
             
              <div className="cardIcon"></div>
 
                 <p> {Text} </p>
 
                 <h3>R${valr}</h3> 
+
+                <h2>{figura}</h2>
 
                
 

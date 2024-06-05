@@ -1,0 +1,25 @@
+.Crd{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #F4F9FE;
+    padding-left: 20px;
+    padding-right: 20px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  /* .CrdBaixo{
+    width: 700px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #F4F9FE;
+    padding-left: 20px;
+    padding-right: 20px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  } */

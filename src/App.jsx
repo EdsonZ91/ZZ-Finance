@@ -17,7 +17,7 @@ function App() {
                <Crd  Text="Entrada" 
                valr={3000}/>
 
-               <Crd Text="Saida" 
+               <Crd  Text="Saida" 
                valr={-400} />
 
                <Crd Text="Total" 
@@ -29,13 +29,18 @@ function App() {
              
                 <div className="CrdDown">
 
-                    <Bagb text={"Spotify Premium  "} opp={"sexta-feira, 04:50 pm "} value={26.50}/>
+                    {/* <Bagb text={"Spotify Premium  "} opp={"sexta-feira, 04:50 pm "} value={26.50}/>
 
                     <Bagb text={"Pix Transfer"} opp={"sexta-feira, 09:50 am "} value={26.50}/>
                     
-                    <Bagb text={"Pão Frances"} opp={"Quinta-Feira, 05:00 pm "} value={12.50}/> 
+                    <Bagb text={"Pão Frances"} opp={"Quinta-Feira, 05:00 pm "} value={12.50}/>  */}
 
-                   
+             <Crd  figura= "26/12/1991" Text="Entrada" 
+               valr={3000}/>
+               <Crd figura="pão"  Text="saída" 
+               valr={-600}/>
+               <Crd  figura="pão" Text="Total" 
+               valr={2400}/>
 
                     
 
