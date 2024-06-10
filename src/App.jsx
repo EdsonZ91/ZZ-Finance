@@ -17,7 +17,7 @@ function App() {
                <Crd  Text="Entrada" 
                valr={3000}/>
 
-               <Crd  Text="Saida" 
+               <Crd  Text="Saída" 
                valr={-400} />
 
                <Crd Text="Total" 
