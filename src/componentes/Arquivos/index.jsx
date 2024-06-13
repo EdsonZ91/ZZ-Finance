@@ -3,7 +3,7 @@
 
 
 
-function Caixa({Text,valr,figura}){
+function Caixa({Text,valr,descrip}){
     
  
 
@@ -11,7 +11,7 @@ function Caixa({Text,valr,figura}){
 
     return(
 
-        <div className={figura == "down"  ? "Down" : "Up" }>
+        <div className={descrip == "coxinha da Quebrada"  ? "Down" : "Up" }>
        
         
             
@@ -23,7 +23,7 @@ function Caixa({Text,valr,figura}){
             </div>
 
            <div className="Down" >
-                <h2>{figura}</h2>
+                <h2>{descrip}</h2>
                 
             </div> 
                

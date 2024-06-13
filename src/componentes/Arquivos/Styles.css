@@ -11,7 +11,7 @@
     justify-content: center;
   }
   .Down{
-    width: 300px;
+    width: 600px;
     height: 80px;
     border-radius: 20px;
     background-color: #F4F9FE;
@@ -23,16 +23,5 @@
     justify-content: center;
   }
   
-    .Crd{
-      width: 300px;
-      height: 80px;
-      border-radius: 20px;
-      background-color: #F4F9FE;
-      padding-left: 20px;
-      padding-right: 20px;
-      display:flex;
-      align-items: center;
-      gap: 10px;
-      justify-content: center;
-    }
+   
 
