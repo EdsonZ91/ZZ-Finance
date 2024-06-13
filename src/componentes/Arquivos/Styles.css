@@ -1,4 +1,4 @@
-.Crd{
+.Up{
     width: 300px;
     height: 150px;
     border-radius: 20px;
@@ -10,10 +10,9 @@
     gap: 10px;
     justify-content: center;
   }
-
-  /* .CrdBaixo{
-    width: 700px;
-    height: 150px;
+  .Down{
+    width: 300px;
+    height: 80px;
     border-radius: 20px;
     background-color: #F4F9FE;
     padding-left: 20px;
@@ -22,4 +21,18 @@
     align-items: center;
     gap: 10px;
     justify-content: center;
-  } */
+  }
+  
+    .Crd{
+      width: 300px;
+      height: 80px;
+      border-radius: 20px;
+      background-color: #F4F9FE;
+      padding-left: 20px;
+      padding-right: 20px;
+      display:flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
+    }
+
