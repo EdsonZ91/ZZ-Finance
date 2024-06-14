@@ -7,7 +7,14 @@ import PressB from "./componentes/PressB"
 
 function App() {
 
-    const pressButton = true
+    function handleOnclickBtn() {
+        // alert("Teste")
+       const Cerveja= prompt("O que voce trouxe para Brenda")
+       alert("voce trouxe " + Cerveja + "cervejas")
+        
+    }
+ 
+    const pressButton = false
 
     function openHouse(idade) {
         alert(idade)
@@ -19,6 +26,10 @@ function App() {
         <div className="majorBox">
             <div className="Box">
                 <h1>ZZ-Finance</h1>
+
+                <button onClick={() => handleOnclickBtn()}>
+                    Testando
+                </button>
 
                  <button onClick={() => openHouse(32)} className="firstBu" >Nova transação</button>
             </div>
@@ -51,6 +62,8 @@ function App() {
                 </div>
 
                 {pressButton && <PressB/>}
+
+              
     
         </div>
     )
