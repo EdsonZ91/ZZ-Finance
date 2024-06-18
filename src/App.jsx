@@ -2,7 +2,8 @@ import"./App.css"
 import  Crd from "./componentes/Arquivos"
 import Pencil from "./componentes/texto"
 import Bagb from "./componentes/Bag"
-import PressB from "./componentes/PressB"
+import Modal from "./componentes/Modal"
+
 
 
 function App() {
@@ -61,10 +62,13 @@ function App() {
 
                 </div>
 
-                {pressButton && <PressB/>}
+                { <Modal />}
+                
+                
 
               
-    
+
+     
         </div>
     )
 }

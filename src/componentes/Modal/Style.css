@@ -1,0 +1,18 @@
+.container-segundaP{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.59);
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.segundaP{
+    width: 576px;
+    height: 547px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+}
