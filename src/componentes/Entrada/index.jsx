@@ -1,7 +1,11 @@
-export default function InputCrd(){
+import './Style.css'
+
+
+
+export default function InputCrd({placeholder}){
     return (
-        <div>
-            <input />
+        <div > 
+            <input className="inputDaddy" placeholder={placeholder}/>
         </div>
     )
 }
