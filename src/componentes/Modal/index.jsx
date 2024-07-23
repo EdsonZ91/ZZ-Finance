@@ -1,6 +1,6 @@
 import InputCrd from '../Entrada'
 import './Style.css'
-
+import ButtonMod from '../ModalButton'
 function Modal(){
 
  return(
@@ -16,12 +16,17 @@ function Modal(){
          }}>
           <InputCrd placeholder={"Título"}/>
           <InputCrd placeholder={"0"}/>
+
+          
             
          </div>
 
       </div>
       <form>
-
+         <div>
+          <ButtonMod />
+          <ButtonMod />
+          </div>
 
       </form>
 

@@ -17,3 +17,10 @@
     padding: 20px;
 }
 
+.modal-button{
+display: flex;
+background-color: white;
+justify-content: center;
+gap: 10px;
+
+}

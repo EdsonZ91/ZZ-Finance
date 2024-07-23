@@ -28,9 +28,7 @@ function App() {
             <div className="Box">
                 <h1>ZZ-Finance</h1>
 
-                <button onClick={() => handleOnclickBtn()}>
-                    Testando
-                </button>
+            
 
                  <button onClick={() => openHouse(32)} className="firstBu" >Nova transação</button>
             </div>
