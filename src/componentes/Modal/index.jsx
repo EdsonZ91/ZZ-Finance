@@ -23,10 +23,29 @@ function Modal(){
 
       </div>
       <form>
-         <div>
+         <div className='modal-button'>
           <ButtonMod />
           <ButtonMod />
-          </div>
+         </div>
+
+               <div>
+
+
+
+
+
+               </div>
+
+
+
+
+
+         
+            <div>
+               <button className='button-cadastrar'>Cadastrar</button>
+            </div>
+
+
 
       </form>
 

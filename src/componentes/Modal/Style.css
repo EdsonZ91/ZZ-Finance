@@ -18,9 +18,24 @@
 }
 
 .modal-button{
-display: flex;
-background-color: white;
-justify-content: center;
-gap: 10px;
+    
 
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.button-cadastrar{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
 }

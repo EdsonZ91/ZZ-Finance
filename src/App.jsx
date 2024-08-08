@@ -9,7 +9,7 @@ import Modal from "./componentes/Modal"
 function App() {
 
     function handleOnclickBtn() {
-        // alert("Teste")
+       
        const Cerveja= prompt("O que voce trouxe para Brenda")
        alert("voce trouxe " + Cerveja + "cervejas")
         
@@ -28,7 +28,7 @@ function App() {
             <div className="Box">
                 <h1>ZZ-Finance</h1>
 
-            
+    
 
                  <button onClick={() => openHouse(32)} className="firstBu" >Nova transação</button>
             </div>
